@@ -16,9 +16,9 @@ function PartneredRTC({PartneredRTCs}) {
                 alignItems: "center",
                 marginTop: "30px",
               }}>
-          {PartneredRTCs.map((x) => {
+          {PartneredRTCs.map((x,index) => {
             return (
-              <div className="country partneredRtc">
+              <div key={index} className="country partneredRtc">
                 <img src={x.imgLink} alt="" />
                 <h3>{x.title}</h3>
               </div>

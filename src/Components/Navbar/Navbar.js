@@ -1,6 +1,6 @@
 import "../../Components/Navbar/Navbar.css";
 import { BiUserCircle } from "react-icons/bi";
-import { TfiHeadphoneAlt, TfiLinkedin} from "react-icons/tfi";
+import { TfiHeadphoneAlt} from "react-icons/tfi";
 import {Link} from "react-router-dom";
 
 function Navbar() {

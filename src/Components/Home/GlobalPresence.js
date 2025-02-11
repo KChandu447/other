@@ -12,9 +12,9 @@ function GlobalPresence({GlobalPresenceCountries}) {
             alignItems: "center",
             marginTop: "30px",
           }}>
-          {GlobalPresenceCountries.map((x) => {
+          {GlobalPresenceCountries.map((x, index) => {
             return (
-              <div className="country">
+              <div key={index} className="country">
                 <img src={x.imgLink} alt="" />
                 <h3>{x.title}</h3>
               </div>
