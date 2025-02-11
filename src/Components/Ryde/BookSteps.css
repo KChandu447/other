@@ -1,0 +1,19 @@
+.line {
+    display: flex;
+  }
+  .card {
+    display: flex;
+    background-color: #f8f4f4;
+    border: 1px solid#000;
+    margin: 30px;
+    margin-top: 8px;
+    border-radius: 5px;
+    justify-content: space-between;
+    height: 74px;
+    padding: 12px;
+    gap: 15px;
+  }
+   .img { 
+    height: 40px;
+    width: 40px;
+  } 
